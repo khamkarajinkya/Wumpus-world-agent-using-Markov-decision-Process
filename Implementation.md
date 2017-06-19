@@ -1,10 +1,10 @@
 Fully observable stochastic version of Wumpus world -
 
+```
 State Space (‘S’) : All the tiles on the grid except the walls of the grid
 
 List of actions: {‘do nothing’, ‘left’, ‘right’, ‘up’, ‘down’, ‘shoot left’, ‘shoot right’, ‘shoot up’, ‘shoot down’}.
 
-```
 ‘do nothing’: This action does not change anything in the grid environment
 ‘left’: Move one tile to the left from current grid position
 ‘right’: Move one tile to the right from current grid position
