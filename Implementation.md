@@ -20,7 +20,7 @@ or the wall
 wumpus or the wall
 
 The Transition function T: ({State,Action} → State
-```
+
 If the intended direction of movement is the same as the action then the transition probability is 0.9
 T(S,A,S') = 0.9 iff S'_direction == A_direction
 otherwise 0.1 in any of the remaining directions
@@ -43,3 +43,4 @@ Agent receives the award of 100 if he gets the gold
 Agent receives an award of -100 if he finds himself in the tile containing the Wumpus or the tile containing the pits
 Agent receives a -1 in every other state 
 If the agent shoots the wumpus, the state containing the wumpus is turned into a normal state with reward of -1
+```
